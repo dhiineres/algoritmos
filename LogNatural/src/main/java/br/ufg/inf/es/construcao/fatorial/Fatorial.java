@@ -1,9 +1,15 @@
 package br.ufg.inf.es.construcao.fatorial;
 
 /**
- * Created by alunoinf on 24/09/15.
+ * implementações a serem utilizadas;
  */
 public class Fatorial {
+    /**
+     * verifica produto;
+     * @param a fator 1;
+     * @param b fator 2;
+     * @return resultado da multiplicação;
+     */
     public static int produto(int a, int b) {
         if (a < 0 || b < 0) {
             throw new IllegalArgumentException("a ou b inválido");
@@ -19,6 +25,11 @@ public class Fatorial {
         return s;
     }
 
+    /**
+     * verifica fatorial;
+     * @param n número a ser verificado;
+     * @return fatorial de n;
+     */
     public static int fat(int n) {
         if (n < 1) {
             throw new IllegalArgumentException("N deve ser maior que 0");

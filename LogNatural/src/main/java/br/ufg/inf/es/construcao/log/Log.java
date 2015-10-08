@@ -10,9 +10,9 @@ import br.ufg.inf.es.construcao.potencia.Potencia;
 public class Log {
 
     /**
-     * verifica log
-     * @param n
-     * @param k
+     * verifica log natural;
+     * @param n inteiro a ser verificado;
+     * @param k base;
      * @return log;
      */
     public static int log(int n, int k) {

@@ -6,7 +6,12 @@ package br.ufg.inf.es.construcao.potencia;
  */
 public class Potencia {
 
-
+    /**
+     * verifica potência;
+     * @param x inteiro a ser elevado;
+     * @param y expoente;
+     * @return resultado da exponenciação;
+     */
     public static int potencia(int x, int y) {
 
         if (x <= 0 || y < 0) {
